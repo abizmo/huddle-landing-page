@@ -85,6 +85,11 @@ main .info button {
   justify-content: center;
   width: 200px;
 }
+main .info button:hover {
+  background-color: #e882e8;
+  color: white;
+  cursor: pointer;
+}
 
 footer {
   font-size: 14px;
@@ -95,24 +100,27 @@ footer {
 footer ul {
   align-items: center;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-footer li {
+footer a {
   align-items: center;
   border: 1px solid white;
   border-radius: 50%;
+  color: white;
   display: flex;
-  height: 28px;
+  height: 32px;
   justify-content: center;
-  width: 28px;
+  text-decoration: none;
+  width: 32px;
 }
-footer a {
-  color: ivory;
+footer a:hover {
+  border-color: #e882e8;
+  color: #e882e8;
 }
 
 @media (min-width: 1440px) {
